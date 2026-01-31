@@ -14,6 +14,10 @@ jobs:
       - name: Print hello message
         run: echo "🎉 Hello from GitHub Actions!"
       
+      - name: Print whoami
+        run: |
+          echo "Current user: $(whoami)"
+      
       - name: Print current time
         run: date
       
